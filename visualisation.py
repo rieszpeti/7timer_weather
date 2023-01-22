@@ -62,7 +62,7 @@ def budapestWindAndDirection(dfs):
 
     fig3, ax3 = plt.subplots(1)
     plt.scatter(x, y, s=200, c=c)
-    plt.colorbar().set_label("Windspeed Km/h")
+    plt.colorbar().set_label("Windspeed m/s")
 
     plt.title("Budapest Wind Speed and Direction")
     plt.xlabel("Time point Hrs")
